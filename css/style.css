@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+   
+    background-color: #fff!important;
+}
+
+/* navbar */
+.main-bar{
+    background-color: #1c5ce6;
+  
+}
+a {
+    color:#fff!important;
+}
+.search-ico{
+    margin-top: 9px;
+}
+/* weather */
+.weather{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+/* about user */
+.about{
+    margin-left: 2rem!important;
+}
+
+.user-img{
+
+    width: 80%;
+}
+.main-img{
+    width: 80%;
+}
+
+/* skills */
+.skill h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.skills-div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.show h5{
+    text-align: center;
+}
+.frontend-img{
+    width: 75%;
+}
+/* hobbies */
+.hobbies{
+    text-align: center;
+    margin-top: 2rem;
+}
+.hobbies h5{
+    font-size: 30px;
+    margin-bottom: 2rem;
+    
+}
+/* footer */
+.icon{
+    color: blue;
+}
+.fab{
+    padding-right: 10px;
+}
+
+/* media queries */
+@media only screen and (max-width: 992px) and (min-width: 768px){
+ /* main */
+ .main-img{
+     margin-top: 2rem;
+    width: 95%;
+}
+
+ /* skill */
+ 
+    .user-img{
+     width: 60%;
+ }
+ .frontend-img{
+     width: 60%;
+ }
+
+}
+
+    
